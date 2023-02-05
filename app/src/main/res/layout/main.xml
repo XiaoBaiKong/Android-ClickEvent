@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/mytext"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textSize="28sp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="32dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:onClick="hello"
+        android:layout_height="wrap_content"
+        android:text="添加属性方式" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/ff2"
+        android:layout_height="wrap_content"
+        android:text="局部事件" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/ff3"
+        android:layout_height="wrap_content"
+        android:text="全局事件" />
+
+</LinearLayout>
